@@ -1,0 +1,40 @@
+*{
+    font-size: 1rem;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-top: 3vh;
+}
+
+.search{
+    display: flex;
+    -ms-flex-direction: row;
+    border-bottom: 1px solid white;
+}
+
+.search input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    width: 100%;
+}
+
+.destaques{
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    margin-left: 15vw;
+}
+
+.destaques img{
+    height: 40vh;
+    width: 100vw;
+}

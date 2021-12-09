@@ -1,0 +1,11 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+svg{
+    position: absolute;
+    margin-left: -2vh;
+    margin-bottom: 2vw;
+}

@@ -1,0 +1,24 @@
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.newAcc{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 18vh;
+    text-align: center;
+    bottom: 10vh;
+    font-size: 0.8rem;
+}
+svg{
+    position: absolute;
+    margin-left: -2vh;
+    margin-bottom: 2vw;
+}

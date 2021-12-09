@@ -1,24 +1,35 @@
 
 .page{
-    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
+.form{
+    height: 40%;
+    width: 100%;
+}
 
-.newAcc{
-    position: absolute;
+.newAcc, .button-and-forgot{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 100vw;
-    height: 18vh;
-    text-align: center;
-    bottom: 10vh;
-    font-size: 0.8rem;
+    height: 8vh;
 }
-svg{
-    position: absolute;
-    margin-left: -2vh;
-    margin-bottom: 2vw;
+
+.input{
+    width: 80vw;
+    height: 10vh;
+}
+
+.input input{
+    width: 100%;
+    height: 50%;
+}
+
+.input svg{
+    right: 0;
+    top: 55%;
 }

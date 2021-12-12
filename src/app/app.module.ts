@@ -9,6 +9,10 @@ import { FourOfourComponent } from './pages/four-ofour/four-ofour.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ChangepwComponent } from './pages/change-pw/changepw.component';
 import { CreateuserComponent } from './pages/create-user/createuser.component';
+import { CreateAnuncioComponent } from './pages/create-anuncio/create-anuncio.component';
+import { LostPasswordComponent } from './pages/lost-password/lost-password.component';
+import { ChatComponent } from './pages/chat/chat.component';
+import { GuardadosComponent } from './pages/guardados/guardados.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { CreateuserComponent } from './pages/create-user/createuser.component';
     CreateuserComponent,
     EditProfileComponent,
     NavBarComponent,
-    FourOfourComponent
+    FourOfourComponent,
+    CreateAnuncioComponent,
+    LostPasswordComponent,
+    ChatComponent,
+    GuardadosComponent
   ],
   imports: [
     BrowserModule,

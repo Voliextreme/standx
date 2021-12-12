@@ -92,11 +92,11 @@ a {
     font-weight: 500;
 }
 
-input{ 
+input, textarea{ 
     font-size: 0.8rem;
 }
 
-input, button{
+input, button, textarea{
     background-color: transparent;
     outline: none;
     outline-style: none;

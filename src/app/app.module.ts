@@ -12,7 +12,9 @@ import { CreateuserComponent } from './pages/create-user/createuser.component';
 import { CreateAnuncioComponent } from './pages/create-anuncio/create-anuncio.component';
 import { LostPasswordComponent } from './pages/lost-password/lost-password.component';
 import { ChatComponent } from './pages/chat/chat.component';
-import { GuardadosComponent } from './pages/guardados/guardados.component';
+import { EditAnuncioComponent } from './pages/edit-anuncio/edit-anuncio.component';
+import { SavedComponent } from './pages/saved/saved.component';
+import { PromoteAdComponent } from './pages/promote-ad/promote-ad.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { GuardadosComponent } from './pages/guardados/guardados.component';
     CreateAnuncioComponent,
     LostPasswordComponent,
     ChatComponent,
-    GuardadosComponent
+    EditAnuncioComponent,
+    SavedComponent,
+    PromoteAdComponent,
   ],
   imports: [
     BrowserModule,

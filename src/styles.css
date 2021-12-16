@@ -77,7 +77,7 @@ a {
 
 .page>h1{
     font-size: 2.5rem;
-    font-weight: 300; 
+    font-weight: 300;
     align-self: flex-start;
     margin-left: 10%;
 }
@@ -92,7 +92,7 @@ a {
     font-weight: 500;
 }
 
-input, textarea{ 
+input, textarea{
     font-size: 0.8rem;
 }
 

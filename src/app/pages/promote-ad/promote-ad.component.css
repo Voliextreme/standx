@@ -1,0 +1,22 @@
+.page{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.plan{
+    background-color: var(--nav);
+    margin-bottom: 3vh;
+    width: 90%;
+    padding-bottom: 2.5vh;
+    padding-top: 2.5vh;
+    padding-left: 3vw;
+    border-radius: 10px;
+
+}
+.plans{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

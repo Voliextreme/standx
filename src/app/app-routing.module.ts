@@ -9,6 +9,9 @@ import { FourOfourComponent } from './pages/four-ofour/four-ofour.component';
 import { CreateAnuncioComponent } from './pages/create-anuncio/create-anuncio.component';
 import { LostPasswordComponent } from './pages/lost-password/lost-password.component';
 import { ChatComponent } from './pages/chat/chat.component';
+import { EditAnuncioComponent } from './pages/edit-anuncio/edit-anuncio.component';
+import { SavedComponent } from './pages/saved/saved.component';
+import { PromoteAdComponent } from './pages/promote-ad/promote-ad.component';
 
 const routes: Routes = [
   {path: "", component: LoginComponent},
@@ -17,8 +20,11 @@ const routes: Routes = [
   { path: 'changePassword', component: ChangepwComponent },
   { path: 'lostPassword', component: LostPasswordComponent },
   { path: 'chat', component: ChatComponent},
+  { path: 'saved', component: SavedComponent},
   { path: 'createAnnouncement', component: CreateAnuncioComponent },
+  { path: 'editAnnouncement', component: EditAnuncioComponent },
   { path: 'createUser', component: CreateuserComponent },
+  { path: 'promoteAd', component: PromoteAdComponent },
   { path: 'home', component: HomeComponent},
   { path: '**', component: FourOfourComponent},
 ];

@@ -19,6 +19,8 @@ import { PaymentComponent } from './pages/payment/payment.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { PayedComponent } from './pages/payed/payed.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { MyAdsComponent } from './pages/my-ads/my-ads.component';
+import { OptionsComponent } from './components/options/options.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { LandingComponent } from './pages/landing/landing.component';
     ProfileComponent,
     PayedComponent,
     LandingComponent,
+    MyAdsComponent,
+    OptionsComponent,
   ],
   imports: [
     BrowserModule,

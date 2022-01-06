@@ -68,6 +68,41 @@
     border-radius: 10px 10px 10px 0;
 }
 
-app-nav-bar {
-    z-index: -100;
+.send {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7vh;
+    background-color: var(--nav);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.send input {
+    width: 55%;
+    height: 50%;
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    background-color: hsla(0, 0%, 100%, 0.05);
+    padding: 0 15px 0 15px;
+}
+
+.send button {
+    width: 10%;
+    aspect-ratio: 1/1;
+    border: none;
+    display: grid;
+    place-items: center;
+}
+
+.send button:nth-of-type(2n) {
+    background-color: var(--background);
+    border-radius: 50%;
+}
+
+.send button img {
+    width: 80%;
+    aspect-ratio: 1/1;
 }

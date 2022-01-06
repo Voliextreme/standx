@@ -1,4 +1,4 @@
-nav{
+nav {
     width: 100vw;
     height: 7vh;
     display: flex;
@@ -6,11 +6,11 @@ nav{
     justify-content: space-evenly;
     position: fixed;
     bottom: 0;
-    z-index: 999;
+    z-index: 99;
     background-color: var(--nav);
 }
 
-.img-link{
+.img-link {
     height: 100%;
     aspect-ratio: 1/1;
     display: grid;

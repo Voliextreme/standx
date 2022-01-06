@@ -3,6 +3,19 @@
     justify-content: space-evenly;
 }
 
+.carousel {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img {
+    position: absolute;
+    width: 50%;
+    border-radius: 20px;
+}
+
 .button {
     display: flex;
     flex-direction: column;
@@ -11,7 +24,7 @@
     height: 8vh;
 }
 
-.method{
+.method {
     display: flex;
     flex-direction: column;
     height: 30%;

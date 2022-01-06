@@ -15,6 +15,9 @@ import { ChatComponent } from './pages/chat/chat.component';
 import { EditAnuncioComponent } from './pages/edit-anuncio/edit-anuncio.component';
 import { SavedComponent } from './pages/saved/saved.component';
 import { PromoteAdComponent } from './pages/promote-ad/promote-ad.component';
+import { PaymentComponent } from './pages/payment/payment.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { PayedComponent } from './pages/payed/payed.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,9 @@ import { PromoteAdComponent } from './pages/promote-ad/promote-ad.component';
     EditAnuncioComponent,
     SavedComponent,
     PromoteAdComponent,
+    PaymentComponent,
+    ProfileComponent,
+    PayedComponent,
   ],
   imports: [
     BrowserModule,

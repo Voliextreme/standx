@@ -16,6 +16,7 @@
     display: flex;
     -ms-flex-direction: row;
     border-bottom: 1px solid white;
+    margin-bottom: 1vh;
 }
 
 .search input {
@@ -26,8 +27,8 @@
     width: 100%;
 }
 
-#topad,
-#savedads {
+#recent,
+#topad {
     width: 90%;
     padding-top: 15%;
     text-align: flex-start;
@@ -78,3 +79,34 @@
     left: 50%;
     top: 50%;
 }
+
+.recent{
+    width: 95vw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding-bottom: 6.5vh;
+  }
+  
+  .each-recent{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 3% 0 3% 0;
+  }
+  
+  .each-recent img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .each-recent h3{
+    margin: 50% 5% 5% 5%;
+    z-index: 1;
+  }

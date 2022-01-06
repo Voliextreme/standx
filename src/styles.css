@@ -5,7 +5,7 @@
     --h3-size: calc(16px + 6 * ((100vw - 320px) / 680));
     --h4-size: calc(12px + 6 * ((100vw - 320px) / 680));
     --p-size: calc(13px + 6 * ((100vw - 320px) / 680));
-    --input-size: calc(10px + 6 * ((100vw - 320px) / 680));
+    --input-size: calc(12px + 6 * ((100vw - 320px) / 680));
     --button-size: calc(20px + 6 * ((100vw - 320px) / 680));
     --a-size: calc(13px + 6 * ((100vw - 320px) / 680));
     /* colors */
@@ -112,7 +112,9 @@ button {
     justify-content: space-evenly;
 }
 
-.input svg {
+.input img {
     position: absolute;
     transform: translateX(-50%, -50%);
+    right: 0;
+    top: 50%;
 }

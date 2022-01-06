@@ -18,6 +18,7 @@ import { PromoteAdComponent } from './pages/promote-ad/promote-ad.component';
 import { PaymentComponent } from './pages/payment/payment.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { PayedComponent } from './pages/payed/payed.component';
+import { LandingComponent } from './pages/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { PayedComponent } from './pages/payed/payed.component';
     PaymentComponent,
     ProfileComponent,
     PayedComponent,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,

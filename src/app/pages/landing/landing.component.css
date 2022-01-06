@@ -1,0 +1,20 @@
+.page {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 8vh;
+}
+
+.method{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-evenly;
+    text-align: center;
+}

@@ -15,6 +15,7 @@ import { PromoteAdComponent } from './pages/promote-ad/promote-ad.component';
 import { PaymentComponent } from './pages/payment/payment.component';
 import { PayedComponent } from './pages/payed/payed.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { LandingComponent } from './pages/landing/landing.component';
 
 const routes: Routes = [
   {path: "", component: LoginComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'lostPassword', component: LostPasswordComponent },
   { path: 'payment', component: PaymentComponent },
   { path: 'payed', component: PayedComponent },
+  { path: 'landing', component: LandingComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'chat', component: ChatComponent},
   { path: 'saved', component: SavedComponent},
